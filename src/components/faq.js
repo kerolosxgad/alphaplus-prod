@@ -24,9 +24,9 @@ const FAQAccordion = () => {
   };
 
   return (
-    <div className="w-full mx-auto space-y-1 bg-[#8D9598] px-12 py-12 text-sm">
+    <div className="w-full mx-auto space-y-1 bg-[#8D9598] px-12 py-6 md:py-12 text-sm">
       {/* Section Title */}
-      <h2 className="font-bold text-3xl text-right text-white mb-5">
+      <h2 className="font-bold text-lg md:text-3xl text-right text-white mb-5">
   الأسئلة الشائعة
 </h2>
 
@@ -41,7 +41,7 @@ const FAQAccordion = () => {
             className="w-full py-5 px-6 text-right hover:bg-gray-500 flex justify-between items-center"
             onClick={() => toggleAccordion(index)}
           >
-            <span className="font-medium text-lg">{item.question}</span>
+            <span className="font-medium text-sm md:text-lg">{item.question}</span>
             <ChevronDown 
               className={`transform transition-transform duration-200 ${
                 openIndex === index ? 'rotate-180' : ''
