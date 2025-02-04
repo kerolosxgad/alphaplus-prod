@@ -35,7 +35,38 @@ function App() {
 
       <img src={bigBanner} className="md:w-full h-full"/>
       <div className=" text-center text-lg md:text-4xl mx-auto text-grey mt-12 md:mt-24 mb-6 md:mb-12"><span className="font-bold ml-1 text-green">ألفا بلس</span > لتفتيح وتوحيد لون البشرة</div>
-      <div className="flex flex-col px-14 md:px-24 w-full">
+      <div className="flex flex-col px-6 w-full md:hidden">
+        <div className="flex flex-row w-full mb-8 gap-6">
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A1}/>
+            <p className="text-center text-md md:text-2xl text-grey">يعزز الحيوية وينعش البشرة</p>
+          </div>
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A2}/>
+            <p className="text-center text-md md:text-2xl text-grey">يعيد إشراقة البشرة</p>
+          </div>
+        </div>
+
+        <div className="flex flex-row w-full mb-8 gap-6">
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A3}/>
+            <p className="text-center text-md md:text-2xl text-grey">آمن ويستخدم لجميع أنواع البشرة</p>
+          </div>
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A4}/>
+            <p className="text-center text-md md:text-2xl text-grey">مناسب للبشرة الحساسة والمناطق الحساسة</p></div>
+        </div>
+
+        <div className="flex flex-row mb-8 gap-6">
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A5}/>
+            <p className="text-center text-md md:text-2xl text-grey">يقلل بقع التقدم بالعمر</p></div>
+          <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
+            <img className="mx-auto w-12 md:w-28 mb-8" src={A6}/>
+            <p className="text-center text-md md:text-2xl text-grey">تفتيح البقع والتصبغات في فترة قصيرة</p></div>
+        </div>
+      </div>
+      <div className="flex-col px-14 md:px-24 w-full hidden md:flex">
         <div className="flex flex-col md:flex-row w-full mb-8 gap-12">
           <div className="w-full md:w-1/3 bg-[url(./images/abg.png)] bg-cover bg-no-repeat mx-auto items-center p-6 md:p-24 flex flex-col rounded-3xl">
             <img className="mx-auto w-12 md:w-28 mb-8" src={A1}/>
