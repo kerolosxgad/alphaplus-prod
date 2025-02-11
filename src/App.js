@@ -111,7 +111,7 @@ function App() {
 </div>
 
 
-      <div className="w-max-screen flex flex-row mt-6 text-lg pr-6 p-24  md:p-6 text-white bg-[url(./images/3.png)] md:h-[800px] bg-center bg-cover relative">
+      <div className="w-max-screen flex flex-row text-lg pr-6 p-24  md:p-6 text-white bg-[url(./images/3.png)] md:h-[800px] bg-center bg-cover relative">
         <div className="md:py-[20%] md:pr-24 w-3/5 md:w-full">
           <p className="font-bold text-lg md:text-4xl text-green mb-1">مواد فعالة مثبتة</p>
           <p  className="text-md md:text-3xl text-grey">مستخلصة من مواد طبيعية</p>
